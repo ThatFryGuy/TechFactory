@@ -1,0 +1,16 @@
+name: TechFactory
+version: '1.0-SNAPSHOT'
+main: org.ThefryGuy.techFactory.TechFactory
+api-version: '1.21'
+commands:
+  techfactory:
+    description: Main TechFactory command
+    usage: /<command> [subcommand]
+    aliases: [tf, tfactory]
+permissions:
+  techfactory.give:
+    description: Allows giving TechFactory items to players
+    default: op
+  techfactory.admin:
+    description: Allows access to admin commands (status, cleanup, etc.)
+    default: op
