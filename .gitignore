@@ -1,5 +1,20 @@
+
 # Project exclude paths
 /.gradle/
 /build/
 /build/classes/java/main/
 /.zencoder/
+
+# IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code (if anyone uses it)
+.vscode/
+
+# Eclipse (if anyone uses it)
+.project
+.classpath
+.settings/
